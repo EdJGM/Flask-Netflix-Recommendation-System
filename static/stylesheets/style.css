@@ -1,0 +1,47 @@
+:root {
+	--background-image: url(/static/images/logo.webp);
+	--background-color: #000;
+	--text-color: #fff;
+	--highlight-color: #000;
+	--font-size-large: 50px;
+	--font-size-medium: 20px;
+	--padding-large: 150px;
+	--padding-medium: 50px;
+	--padding-small: 5px;
+}
+
+body {
+	background-image: var(--background-image);
+	background-size: cover;
+	color: var(--text-color);
+	text-align: center;
+	padding-top: var(--padding-small);
+	font-family: Arial, sans-serif;
+}
+
+h1 {
+	padding-top: var(--padding-large);
+	color: var(--text-color);
+	text-align: center;
+	font-size: var(--font-size-large);
+}
+
+p {
+	font-size: var(--font-size-medium);
+	color: var(--highlight-color);
+}
+
+span {
+	background-color: var(--text-color);
+	color: var(--highlight-color);
+	padding: 5px;
+	border-radius: 5px;
+}
+
+form {
+	padding-top: var(--padding-medium);
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}

@@ -1,0 +1,67 @@
+:root {
+  --primary-color: #377ba8;
+  --secondary-color: #eee;
+  --font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  --font-size-large: 1.2em;
+  --font-size-medium: 0.9em;
+  --border-color: #C8C8C8;
+  --hover-color: #ffff99;
+  --padding: 10px;
+  --margin-bottom: 40px;
+  --opacity: 90%;
+}
+
+body {
+  font-family: var(--font-family);
+}
+
+a,
+h1,
+h2 {
+  color: var(--primary-color);
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+h1 {
+  border-bottom: 2px solid var(--secondary-color);
+}
+
+h2 {
+  font-size: var(--font-size-large);
+}
+
+.page {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+table.dataframe,
+.dataframe th,
+.dataframe td {
+  border: none;
+  border-bottom: 1px solid var(--border-color);
+  border-collapse: collapse;
+  text-align: center;
+  padding: var(--padding);
+  margin-bottom: var(--margin-bottom);
+  font-size: var(--font-size-medium);
+  opacity: var(--opacity);
+}
+
+tr:nth-child(odd) {
+  background-color: var(--secondary-color);
+}
+
+tr:nth-child(even) {
+  background-color: #fff;
+}
+
+tr:hover {
+  background-color: var(--hover-color);
+  transition: background-color 0.3s ease;
+}

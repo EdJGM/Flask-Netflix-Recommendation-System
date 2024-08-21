@@ -1,0 +1,66 @@
+# Entornos virtuales
+venv/
+env/
+ENV/
+.venv/
+.pyenv/
+
+# Archivos de configuración de Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Archivos de configuración de entorno
+.env
+*.env
+
+# Archivos de caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de configuración de IDE
+.vscode/
+.idea/
+
+# Archivos de bases de datos locales
+*.sqlite3
+*.db
+
+# Archivos de logs
+*.log
+
+# Archivos de configuración de Gunicorn
+gunicorn.conf.py
+
+# Archivos de configuración de Waitress
+waitress.conf.py
+
+# Archivos de configuración de Flask
+instance/
+config.py
+
+# Archivos de distribución
+dist/
+build/
+*.egg-info/
+
+# Archivos de cobertura de pruebas
+htmlcov/
+.coverage
+.tox/
+.nox/
+.cache/
+coverage.xml
+*.cover
+.hypothesis/
+
+# Archivos de documentación
+docs/_build/
+
+# Archivos de Jupyter Notebook
+.ipynb_checkpoints/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
